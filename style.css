@@ -1,0 +1,280 @@
+
+body{
+    background-color: rgb(233, 147, 147);
+}
+
+.title {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.author {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainimage {
+    width: 900px;
+    height: auto;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.intro {
+    width: 800px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.second {
+    width: 800px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.third {
+    width: 800px;
+    height: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth{
+    width: 800px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.title:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.intro:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 500ms;
+    border: 10px solid white ;
+}
+
+.second:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 500ms;
+    border: 10px solid white ;
+}
+
+.third:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 500ms;
+    border: 10px solid white ;
+}
+
+.fourth:hover {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 500ms;
+    border: 10px solid white ;
+}
+
+.help-button{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 100;
+}
+
+.help-button:hover{
+    background: black;
+    color: rgb(233, 147, 147);
+    cursor: pointer;
+}
+
+.help-image{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.show {
+    display: block;
+}
+
+.help-button2{
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    top: 100px;
+    left: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    z-index: 100;
+}
+
+.help-button2:hover{
+    background: black;
+    color: rgb(233, 147, 147);
+    cursor: pointer;
+}
+
+.help-image2{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: 400px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.show {
+    display: block;
+}
+
+.nest{
+    color:blue;
+}
+
+.nest-image{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.nest:hover{
+  cursor: pointer;
+  font-size:25px;
+}
+
+.show {
+    display: block;
+}
+
+.shrimp{
+    color:blue;
+}
+
+.shrimp-image{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.shrimp:hover{
+  cursor: pointer;
+  font-size:25px;
+}
+
+.show {
+    display: block;
+}
+
+.creature{
+    color:blue;
+}
+
+.creature-image{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.creature:hover{
+  cursor: pointer;
+  font-size:25px;
+}
+
+.show {
+    display: block;
+}
+
+.brown{
+    color:blue;
+}
+
+.brown-image{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: none;
+    width: 600px;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+}
+
+.brown:hover{
+  cursor: pointer;
+  font-size:25px;
+}
+
+.show {
+    display: block;
+}
